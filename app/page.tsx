@@ -4,8 +4,7 @@ export default function Home() {
   return (
    <>
 
-   <h1 className="">Hello world</h1>
-   <h2 className="mt-10">HI</h2>
+   <h1 className=""> SITE HOSTED</h1>
    
    </>
   );
