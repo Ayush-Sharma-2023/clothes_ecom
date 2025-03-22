@@ -4,7 +4,7 @@ export default function Home() {
   return (
    <>
 
-   <h1 className=""> SITE HOSTED</h1>
+   <h1 className=" text-center"> SITE HOSTED</h1>
    
    </>
   );
