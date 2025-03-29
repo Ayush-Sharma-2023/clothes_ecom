@@ -11,7 +11,7 @@ const ContactForm: React.FC = () => {
     return (
       <div className="text-center p-6">
         <p className="text-green-500 text-lg font-semibold">
-          🎉 Thanks for reaching out! We'll get back to you soon.
+          🎉 Thanks for reaching out! We&apos;ll get back to you soon.
         </p>
         <Link
           href="/"
