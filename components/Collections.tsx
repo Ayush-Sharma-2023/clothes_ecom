@@ -1,4 +1,5 @@
 import Image from "next/image";
+// import Shirt from "../public/shirt.png";
 export default function FeaturedCollections() {
   const collections = [
     {
@@ -11,22 +12,22 @@ export default function FeaturedCollections() {
       name: "Oversized T-shirts",
       description: "Explore our collection of oversized t-shirts and discover the perfect fit for you.",
       // image: "/oversized-tshirt.png",
-      image: "/shirt.png",
+      image: "./shirt.png",
     },
     {
       name: "Polo T-shirts",
       description: "Explore our collection of polo t-shirts and discover the perfect fit for you.",
-      image: "/shirt.png",
+      image: "./shirt.png",
     },
     {
       name: "Hoodies",
       description: "Explore our collection of hoodies and discover the perfect fit for you.",
-      image: "/shirt.png",
+      image: "./shirt.png",
     },
     {
       name: "Sweatshirts",
       description: "Explore our collection of sweatshirts and discover the perfect fit for you.",
-      image: "/shirt.png",
+      image: "./shirt.png",
     },
   ];
 
@@ -42,6 +43,7 @@ export default function FeaturedCollections() {
         >
           <Image 
             src={item.image} 
+            // src ={Shirt}
             alt={item.name} 
             width={500} 
             height={500} 
