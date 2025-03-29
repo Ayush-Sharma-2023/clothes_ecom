@@ -4,7 +4,8 @@ export default function FeaturedCollections() {
     {
       name: "Round Neck T-shirts",
       description: "Explore our collection of round neck t-shirts and discover the perfect fit for you.",
-      image: "/shirt.png",
+      image: "./shirt.png",
+      
     },
     {
       name: "Oversized T-shirts",
