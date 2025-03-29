@@ -1,6 +1,7 @@
 import HeroSection from "@/components/Hero";
 import COllections from "@/components/Collections";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import ContactForm from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <COllections />
       <WhyChooseUs />
+      <ContactForm />
     </>
   );
 }
