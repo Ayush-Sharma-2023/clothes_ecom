@@ -10,16 +10,16 @@ export default function Navbar() {
 
         <ul className="flex space-x-6 text-white font-medium">
           <li className="hover:text-gray-300 cursor-pointer">
-            <Link href="/test">About Us</Link>
+            <Link href="/about">About Us</Link>
           </li>
           <li className="hover:text-gray-300 cursor-pointer">
-            <Link href="/test">Categories</Link>
+            <Link href="/categories">Categories</Link>
           </li>
           <li className="hover:text-gray-300 cursor-pointer">
-            <Link href="/test">Contact Us</Link>
+            <Link href="/contact">Contact Us</Link>
           </li>
           <li className="hover:text-gray-300 cursor-pointer">
-            <Link href="/test">Terms & Conditions</Link>
+            <Link href="/TnC">Terms & Conditions</Link>
           </li>
         </ul>
       </div>
